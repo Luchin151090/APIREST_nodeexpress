@@ -18,6 +18,8 @@ Configurar o añadir en el package.json y debajo de "main" : `"type":"module"` e
 ### Paso 4
 Instalar el NODEMON solo para desarrollo: `"npm install --save-dev nodemon"` Cuando estemos en producción no se instala, para eso se necesitará PM2.
 Luego configurar en el package.json en el apartado de scripts: `"start":"nodemon <el nombre de tu archivo principal .js"` esto para que el servidor nodemon se inicia o se actualice automaticamene al momento de desarrollar.
+Ahora en la consola digita:
+`npm start` y tu aplicación correra con el servidor nodemon en el puerto que tu configuraste
 
 
 ## FUENTE
