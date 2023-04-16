@@ -15,6 +15,9 @@ Instalar EXPRESS en nuestro proyecto : `npm install --save express` el cuál agr
 ### Paso 3
 Configurar o añadir en el package.json y debajo de "main" : `"type":"module"` esto para indicar que usaremos en los archivos "import" como estandar ES6
 
+### Paso 4
+Instalar el NODEMON solo para desarrollo: `"npm install --save-dev nodemon"` Cuando estemos en producción no se instala, para eso se necesitará PM2.
+
 
 ## FUENTE
 https://www.youtube.com/watch?v=l8WPWK9mS5M&t=1336s
